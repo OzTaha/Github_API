@@ -6,9 +6,9 @@
 
 ## technologies used
 
--Html, Css(css variable, advanced css), Javascript
--fetch was used to pull the api
--Alternatively, "axios" can be used.
+- Html, Css(css variable, advanced css), Javascript
+- fetch was used to pull the api
+- Alternatively, "axios" can be used.
 
 ## Profile View
 
@@ -20,4 +20,4 @@
 
 ## Username Not Found View
 
-![Github Api Project](img_for_readme/Github_Api_Project3.png)
+![Github Api Project](img_for_readme/Github_Api_Project4.png)
