@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Api Project</title>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="profilStyle.css" />
+
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+  </head>
+  <body>
+   <section class="container">
+  <h1>Call Github Profile</h1>
+  <form action="" id="githubForm">
+    <section class="input-container">
+      <i class="fa-solid fa-user"></i>
+      <input type="text" id="userName" placeholder="Enter your username." />
+    </section>
+    <section class="btn-container">
+      <button type="submit" class="submit-btn">Call Profile</button>
+    </section>
+  </form>
+</section>
+
+<!-- Modal (Pop-up) Yapısı -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <section id="profile"></section>
+  </div>
+</div>
+  
+    <script src="profil.js"></script>
+  </body>
+</html>
